@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<title>Navigation menu example</title>
+	<script src="http://code.jquery.com/jquery-3.3.1.min.js"
+		integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300" rel="stylesheet">
+	<link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+	<header class="header">
+		<nav>
+			<input class="menu-btn" type="checkbox" id="menu-btn" />
+			<label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+			<a href="/" class="logo">Expense Analyser</a>
+			<ul class="menu">
+				<li><a href="dashboard">Dashboard</a></li>
+				<li><a href="">Transactions</a></li>
+				<li><a href="">About</a></li>
+				<li><a href="">Contact</a></li>
+			</ul>
+
+		</nav>
+	</header>
+	<main class="dashboard">
+		<div class="flex-container">
+			<div class="flex-box income">
+				<p class="label">$20,000</p>
+				<p class="value">INCOME</p>
+			</div>
+			<div class="flex-box expenses">
+				<p class="label">$15,000</p>
+				<p class="value">EXPENSES</p>
+			</div>
+			<div class="flex-box balance">
+				<p class="label">$5,000</p>
+				<p class="value">BALANCE</p>
+			</div>
+			<div class="flex-box transaction">
+				<p class="label">$2,500</p>
+				<p class="value">TRANSACTIONS</p>
+			</div>
+		</div>
+		<div class="charts">
+
+		</div>
+	</main>
+
+</body>
+
+</html>

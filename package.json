@@ -1,0 +1,13 @@
+{
+  "name": "expense-analyser",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "pnaik93 <pnaik93@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
