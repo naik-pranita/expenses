@@ -129,6 +129,10 @@ main {
 	flex-direction: row;
 }
 
+.flex-column {
+	flex-direction: column;
+}
+
 .form {
 	top: 30%;
 	margin: 0 10px;
