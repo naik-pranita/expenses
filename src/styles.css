@@ -122,7 +122,11 @@ main {
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
-	margin: 0 10px;
+	width: 100%;
+}
+
+.flex-row {
+	flex-direction: row;
 }
 
 .form {
@@ -136,6 +140,7 @@ main {
 	padding: 10px;
 	margin: 10px;
 	width: 90%;
+	border-radius: 5px;
 }
 
 .form-container {
@@ -193,7 +198,20 @@ main {
 	font-size: 14px;
 }
 
-.dashboard {
+.income {
+	color: mediumaquamarine;
+}
+
+.expenses {
+	color: salmon;
+}
+
+.balance {
+	color: cornflowerblue;
+}
+
+.transaction {
+	color: darkorchid;
 }
 
 .charts {
