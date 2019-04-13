@@ -131,6 +131,7 @@ main {
 
 .form {
 	top: 30%;
+	margin: 0 10px;
 }
 
 .flex-box {
@@ -148,7 +149,6 @@ main {
 	border: 1px solid orange;
 	width: 100%;
 	box-sizing: border-box;
-	margin: 0 10px;
 }
 
 .form-control {
